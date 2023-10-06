@@ -41,7 +41,7 @@
 					</h3>
 					<form method="get">
 						<br> <input type="text" class="form-control" id="resultado"
-							name="Resultado" style="height: 100px;"
+							name="Resultado" style="height: 100px;" readonly="readonly"
 							value="<%out.print(mostrar);%>" aria-describedby="basic-addon3"
 							placeholder="Operacion"> <br>
 						<table>
